@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Clássico</title>
+    <link rel="stylesheet" href="style.css">
+    <audio src="musicas/1771782540_Basketball.mp3" autoplay loop></audio>
+    <style>
+        header {
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        body #introducao {
+            padding: 20px;
+            border: 0px solid black;
+            margin: 0px;
+            line-height: 26px;
+            width: 300px;
+            position: absolute;
+            top: 20%;
+            left: 40%;
+            background-color: #2F5973;
+            color: white;
+    
+        }
+
+        #jogar {
+            position: absolute;
+            top: 42%;
+            left: 40%;
+            width: 300px;
+            background-color: #081B26;
+            padding: 10px;
+            border: 0px solid black;
+            border-radius: 0px 0px 15px 0px;
+            margin: 0px;
+       }
+
+       h2#jogue {
+        text-align: center;
+       }
+
+       
+        div#introducao {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            transition: 0.2s ease;
+        }
+
+         div#introducao :hover {
+            transform: scale(1.02);
+            background: #133d66;
+            cursor: pointer;
+        }
+
+        #intro {
+            position: absolute;
+            top: 15%;
+            left: 40%;
+            width: 300px;
+            padding: 10px;
+            border: 0px solid black;
+            border-radius: 15px 0px 0px 0px;
+            background-color: #081B26;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Modo Clássico</h2>
+        <h3>>O desafio original!</h3>
+    </header>
+
+    <div id="intro">
+         <h2><a href="#">Introdução ao Modo</a> </h2>
+    </div>
+
+    <div id="introducao">
+      
+      <p>Jogue sozinho sozinho no modo clássico e reviva a essência do jogo da forca. adivinhe letras, evite erros e tente descobrir a palavra secreta antes que seja tarde. ideal para treinar, se divertir e testar seus conhecimentos a cada partida.</p>
+          
+    </div>
+    <div id="jogar">
+        <h2 id="jogue"><a href="#">Iniciar Jogo</a> </h2>
+    </div>
+   
+       
+  
+</body>
+</html>
