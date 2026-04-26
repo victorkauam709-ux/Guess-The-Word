@@ -185,12 +185,5 @@
         text-align: center;
     }
 
-    #intro, #introducao {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: static; /* ESSENCIAL */
-        text-align: center;
-    
-    }
+   
 }
