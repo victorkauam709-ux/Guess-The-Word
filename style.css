@@ -9,6 +9,7 @@
 
     body {
       min-height: 100vh;
+      padding-top: 80px;
       background: linear-gradient(to bottom, #0b9ae8, #eaf7ff 55%, #ffffff 100%);
       color: #ffffff;
     }
@@ -18,11 +19,17 @@
     }
 
     .topo {
+      position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
-      padding: 20px 30px;
+      padding: 2px 30px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      background-color: #001826;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      z-index: 999;
     }
 
     .perfil-topo {
