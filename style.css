@@ -85,6 +85,10 @@
       margin-top: 10px;
     }
 
+    div#passe {
+      margin: auto;
+    }
+
     .container {
       width: 90%;
       max-width: 1400px;
