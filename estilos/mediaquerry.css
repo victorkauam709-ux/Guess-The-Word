@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+/* Typical Device Breakpoints
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media (max-width: 900px) {
+      .topo {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+
+      .titulo {
+        font-size: 28px;
+      }
+
+      .perfil-topo {
+        font-size: 20px;
+      }
+
+     .informacao-modo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .informacao-modo h2 {
+      margin: 0;
+    }
+
+    .voltar {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+
+      .container {
+        flex-direction: column;
+      }
+
+      .botao-menu {
+        font-size: 20px;
+        padding: 16px 18px;
+      }
+
+      .area-inferior {
+        margin-top: 6px;
+        margin-bottom: 60px;
+        justify-content: center;
+        color: white;
+      }
+
+      .painel-jogo {
+        font-size: 18px;
+        text-align: center;
+      }
+    
+    
+    div a {
+        color: white;
+    }
+
+    div a:hover {
+        color: #0b9ae8;
+    }
+
+    /* empilha as colunas */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* botões centralizados */
+    .botao-menu {
+        width: 80%;
+        max-width: 300px;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    /* ÁREA DO MODO DE JOGO */
+    .area-inferior {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .painel-jogo {
+        width: 85%;
+        max-width: 320px;
+        margin-top: 20px;
+
+        position: static; /* ESSENCIAL */
+        text-align: center;
+    }
+
+    /* título centralizado */
+    .titulo {
+        text-align: center;
+    }
+
+}
