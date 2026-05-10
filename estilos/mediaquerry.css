@@ -13,7 +13,7 @@ Grandes telas: acima de 1200px
    .titulo {
     font-size: 0.5em;
     position: absolute;
-    left: 85%;
+    left: 50%;
     top: 10%;
   }
 }
