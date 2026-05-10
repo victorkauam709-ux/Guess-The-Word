@@ -11,6 +11,11 @@ body,a {
       text-decoration: none;
     }
 
+.titulo {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+   }
+
 .topo {
       position: fixed;
       top: 0;
@@ -21,6 +26,7 @@ body,a {
       justify-content: space-between;
       align-items: center;
       background: linear-gradient(to bottom, #dff6ff,#bfefff);
+      height: 40px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.15);
       color: #26384d;
       text-shadow: none;
