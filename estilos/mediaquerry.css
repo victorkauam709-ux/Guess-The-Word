@@ -9,12 +9,6 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (max-width:992){
-  .titulo {
-    font-size: 0.5em;
-  }
-}
-
 @media (max-width: 992px) {
       .topo {
         flex-direction: column;
@@ -23,7 +17,7 @@ Grandes telas: acima de 1200px
 
       .titulo {
         font-size: 28px;
-        font-size: 1.5em;
+        font-size: 1.6em;
 
       }
 
@@ -135,5 +129,11 @@ Grandes telas: acima de 1200px
     position: absolute;
     left: 85%;
     top: 10%;
+  }
+}
+
+@media screen and (max-width:992){
+  .titulo {
+    font-size: 0.5em;
   }
 }
