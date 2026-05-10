@@ -16,9 +16,10 @@ Grandes telas: acima de 1200px
       }
 
       .titulo {
-        font-size: 28px;
-        font-size: 1.6em;
-
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        font-size: 1.5em;
       }
 
       .perfil-topo {
@@ -123,17 +124,12 @@ Grandes telas: acima de 1200px
 
 }
 
-@media screen and (min-width:990px) {
+@media screen and (min-width: 992px) {
   .titulo {
-    font-size: 2em;
     position: absolute;
     left: 85%;
     top: 10%;
+    font-size: 1.5em;
   }
-}
-
-@media screen and (max-width:992){
-  .titulo {
-    font-size: 0.5em;
-  }
+  
 }
