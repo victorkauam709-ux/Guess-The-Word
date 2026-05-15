@@ -19,7 +19,7 @@ Grandes telas: acima de 1200px
 }
 
 @media (max-width: 992px) {
-      .topo {
+      .topo { 
         flex-direction: column;
         gap: 10px;
       }
