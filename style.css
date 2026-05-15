@@ -36,14 +36,6 @@
       margin: 0;
     }
 
-    .informacao-passe {
-      padding: 10px;
-    }
-
-    .informacao-passe p {
-      margin-top: 10px;
-    }
-
     div#passe {
       margin: auto;
     }
@@ -141,13 +133,7 @@
       margin: 0;
     }
 
-    .voltar {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      margin-right: 15px;
-    }
-
+   
       .container {
         flex-direction: column;
       }

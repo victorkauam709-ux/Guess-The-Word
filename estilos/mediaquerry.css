@@ -49,13 +49,7 @@ Grandes telas: acima de 1200px
       margin: 0;
     }
 
-    .voltar {
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      margin-right: 15px;
-    }
-
+    
       .container {
         flex-direction: column;
       }
