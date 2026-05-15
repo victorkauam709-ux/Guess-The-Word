@@ -15,7 +15,7 @@ Grandes telas: acima de 1200px
       }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (max-width: 992px) {
       .topo { 
         flex-direction: column;
         gap: 10px;
