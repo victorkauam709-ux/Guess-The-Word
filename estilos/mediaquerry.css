@@ -15,11 +15,11 @@ Grandes telas: acima de 1200px
         right: 5%;
         top: 10%;
         font-size: 0.2em;
-        display: none;
+        color: red;
       }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
       .topo { 
         flex-direction: column;
         gap: 10px;
