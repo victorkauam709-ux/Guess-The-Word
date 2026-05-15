@@ -58,13 +58,13 @@
 
     .botao-menu {
       
-      background: #0b2e4f;
+      background: #ffffff8c;
       border: 3px solid rgba(255,255,255,0.75);
       border-radius: 20px;
       padding: 18px 22px;
       font-size: 24px;
       font-weight: bold;
-      color: white;
+      color: rgb(0, 0, 0);
       text-decoration: none;
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
       transition: 0.2s ease;
