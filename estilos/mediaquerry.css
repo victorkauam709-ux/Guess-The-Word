@@ -10,16 +10,12 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (max-width: 768px) {
-        .titulo {
-        position: absolute;
-        right: 5%;
-        top: 10%;
-        font-size: 0.2em;
-        color: red;
+        .titulo {     
+        font-size: 0.9em;
       }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
       .topo { 
         flex-direction: column;
         gap: 10px;
