@@ -67,4 +67,6 @@ text-decoration: none;
       align-items: center;
     }
 
-
+.voltar:hover {
+    color: blue;
+}

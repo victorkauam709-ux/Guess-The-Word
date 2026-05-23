@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Guess The Word</title>
+    <link rel="stylesheet" href="estilos/mediaquerry.css">
+    <link rel="stylesheet" href="estilos/global.css">
+    <link rel="stylesheet" href="estilos/login.css">
+    <link rel="stylesheet" href="estilos/mediaquery-login.css">
+    <audio src="musicas/música-lobby.mpeg" autoplay loop></audio>
+</head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-querry.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Faça login para acessar a sua conta do Guess The Word.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                     <div class="campo">
+                         <i>
+                             <span  class="material-symbols-outlined">person
+                             </span>
+                         </i>
+                         <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" required maxlength="30">
+                         <label for="iemail">Login</label>
+                     </div>
+
+                     <div class="campo">
+                         <i>
+                             <span class="material-symbols-outlined">vpn_key
+                             </span>
+                         </i>
+                         <input type="password" name="Senha" id="isenha" autocomplete="current-password" placeholder="sua senha" required minlength="8" maxlength="12">
+                           <label for="isenha">Senha</label>
+                     </div>
+                     <input type="submit" value="Entrar">
+                     <a class="botao" href="esqueci.html">
+                        Esqueci a senha <i class="material-symbols-outlined">mail</i>
+                     </a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
+</html>
