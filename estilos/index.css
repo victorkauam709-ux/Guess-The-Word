@@ -31,9 +31,10 @@
 }
 
 #botao-inferior {
-      width: 90%;
-      max-width: 1400px;
-      margin: 750px 90px 80px;
-      display: flex;
-      justify-content: flex-end;
+    height: 100%;
+    width: 90%;
+    max-width: 1400px;
+    margin: 750px 90px 80px;
+    display: flex;
+    justify-content: flex-end;
     }
